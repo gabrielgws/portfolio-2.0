@@ -36,7 +36,7 @@ export const HeroSection = () => {
 
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
             {Array.from({ length: 5 }).map((_, index) => (
-              <TechBadge name="Next.js" />
+              <TechBadge key={index} name="Next.js" />
             ))}
           </div>
 
